@@ -41,6 +41,22 @@ Everytime a package is installed, for example: `pip install numpy`, the requirem
 
 All the required packages will be listed on the `requirements.txt` file.
 
+
+## Our Project:
+Ideen:
+    -Auswertung der Daten des Deutchen Wetterdienstes (DWD)
+     -Vergleich zwischen Prognosen und tatsächlich eingetroffenem Wetter. 
+         ->statistische Wahrscheinlichkeit für Abweichung/ Fehler der Prognosen ->guter Einstieg
+      -Eigene Prognosen erstellen? -> sehr komplex
+    
+    -Einfluss von Umweltkatastrophen (ggf. Nachrichten auf Naturkatastrophen absuchen?) auf politisches Meinungsbild(Politibarometer in deutschland) -> glaube ich machbar aber kein machine learning, nur statistik glaube ich
+
+    -
+
+    Daten gibt es hier:
+        Politisches Meinungsbild: https://search.gesis.org/research_data/ZA7970?doi=10.4232/1.14103
+        Wetterdaten: https://opendata.dwd.de/climate_environment/CDC/
+
 ## References:
 
 - [Virtual Env](https://python.land/virtual-environments/virtualenv)
