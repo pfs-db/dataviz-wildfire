@@ -59,3 +59,5 @@ Ideen:
 
 - [Virtual Env](https://python.land/virtual-environments/virtualenv)
 - [Classes Slides](https://nc.uni-bremen.de/index.php/s/MWxosSLCQxKPapZ)
+- [Jupyter Uni Bremen](https://jupyter.uni-bremen.de/)
+- [Forschung Professor: Klimageographie](https://www.uni-bremen.de/geographie/personen/personen-a-z/prof-dr-ben-marzeion)
