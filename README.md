@@ -60,3 +60,4 @@ Ideen:
 ## References:
 
 - [Virtual Env](https://python.land/virtual-environments/virtualenv)
+- [Classes Slides](https://nc.uni-bremen.de/index.php/s/MWxosSLCQxKPapZ)
