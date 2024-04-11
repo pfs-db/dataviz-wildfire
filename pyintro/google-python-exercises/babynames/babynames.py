@@ -4,7 +4,7 @@
 # http://www.apache.org/licenses/LICENSE-2.0
 
 # Google's Python Class
-# http://code.google.com/edu/languages/google-python-class/
+# https://developers.google.com/edu/python/exercises/baby-names
 
 import sys
 import re
@@ -48,6 +48,8 @@ def extract_names(filename):
         year = re.search(r"(\d){4}", filename).group(0)
     except Exception:
         sys.exit("Error in parsing the year from file name.")
+
+    name_dict = dict()
     with open(Path.cwd().joinpath(filename), "r") as file:
         # print(file.readlines()) # Extract all the text
         lines = file.readlines()
@@ -56,8 +58,18 @@ def extract_names(filename):
             r'<tr align="right"><td>(\d{1,4})</td><td>([a-zA-Z]{1,})</td><td>([a-zA-Z]{1,})</td>',
             file_content,
         )
-    print(matches)
+    # print(name_dict)
+    name_list = []
+    name_list.append(year)
+    for elem in matches:
+        id, male_name, female_name = elem
+        name_dict[male_name] = {"id": id}
+        name_dict[female_name] = {"id": id}
+    sorted_dict = dict(sorted(name_dict.items()))
 
+    for name in sorted_dict.keys():
+        name_list.append(f"{name} {sorted_dict[name]['id']}")
+    print(name_list)
     return
 
 
