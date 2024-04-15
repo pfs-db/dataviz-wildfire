@@ -32,3 +32,32 @@ MZH 5600
 
 - [Machine Learning](https://suche.suub.uni-bremen.de/peid=B71966184&LAN=DE&CID=&index=L&Hitnr=1&dtyp=D&rtyp=a&Exemplar=1)
 - [Storytelling mit Daten ](https://suche.suub.uni-bremen.de/peid=B86751902&LAN=DE&CID=7977419&index=L&Hitnr=1&dtyp=D&rtyp=a&Exemplar=1)
+
+### Second class
+
+#### Statistics
+
+- Imputation?
+
+Source of Dataset examples: [Kaggle](https://www.kaggle.com/
+
+- The usage of [pandas library](https://pandas.pydata.org/) can be usefull, check out the functions like .head() .describe() .value_counts()
+
+#### Supervised learning
+
+key word: Prediction
+Class = category
+Regression = related to values
+
+For the usage of KNN (K-Nearst neirboors) it is usually K is an odd number.
+Accurancy based on the True Positives and true negatives
+Confusion Matrix
+
+Regression = prediction
+
+MSE - mean square error: calculate the prediction
+
+Methods:
+
+- KNN Regression
+- Linear Regression
