@@ -22,10 +22,11 @@ MZH 5600
 
 ## Exams
 
-- Data science & Vis paper presentation (20%) 06.05.24
-- Exposé & exposé presentation (required)
-- Interims presentation (required)
-- Final presentation (30%)
+- Data science & Vis paper presentation (20%) 06.05.24 - DONE
+- Group inscription 13.05.24 - DONE
+- Exposé & exposé presentation (required) 27.05.24
+- Progress presentation (required) - 03.06.24
+- Final presentation (30%) - 01.07.24
 - Deadline Final Report 19.07.24 (50%)
 
 ## Literatur
