@@ -41,19 +41,13 @@ Everytime a package is installed, for example: `pip install numpy`, the requirem
 
 All the required packages will be listed on the `requirements.txt` file.
 
+## Project planning:
+
+A copy of the project planning will be at [Project Notes](./notes/project_plan.md). Otherwise use the link to contribute online at [Hackmd - Planning](https://hackmd.informatik.uni-bremen.de/j6lQBfpTSDOP7SPxjBKXQg).
+
 ## Our Project:
 
-Ideen:
-
-- Auswertung der Daten des Deutchen Wetterdienstes (DWD)
-- Vergleich zwischen Prognosen und tatsächlich eingetroffenem Wetter.
-  ->statistische Wahrscheinlichkeit für Abweichung/ Fehler der Prognosen ->guter Einstieg
-- Eigene Prognosen erstellen? -> sehr komplex
-- Einfluss von Umweltkatastrophen (ggf. Nachrichten auf Naturkatastrophen absuchen?) auf politisches Meinungsbild(Politibarometer in deutschland) -> glaube ich machbar aber kein machine learning, nur statistik glaube ich
-
-- Daten gibt es hier:
-  - Politisches Meinungsbild: [article](https://search.gesis.org/research_data/ZA7970?doi=10.4232/1.14103)
-  - Wetterdaten: [Daten](https://opendata.dwd.de/climate_environment/CDC/)
+Work in progress.
 
 ## References:
 
