@@ -1,11 +1,5 @@
 # data-science-viz
 
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
 ## Virtual enviroments
 
 Usage of virtual enviroments to make sure that the project is compatible in every machine.
@@ -47,7 +41,16 @@ A copy of the project planning will be at [Project Notes](./notes/project_plan.m
 
 ## Our Project:
 
-Work in progress.
+The folder structure follow as this:
+
+```
+project_wild_fire
+├── docs
+├── output
+├── sample
+├── src
+└── tests
+```
 
 ## References:
 
@@ -55,3 +58,20 @@ Work in progress.
 - [Classes Slides](https://nc.uni-bremen.de/index.php/s/MWxosSLCQxKPapZ)
 - [Jupyter Uni Bremen](https://jupyter.uni-bremen.de/)
 - [Forschung Professor: Klimageographie](https://www.uni-bremen.de/geographie/personen/personen-a-z/prof-dr-ben-marzeion)
+
+## Tasks
+
+| Task Description                                                                         | Assignee | Status      |
+| ---------------------------------------------------------------------------------------- | -------- | ----------- |
+| Write Exposé                                                                             | @all     | In Progress |
+| Extract information from the DWD portal                                                  | -        | Not Started |
+| Extract information from the Brandstatistik PDF's                                        | -        | Not Started |
+| Filter/Clean/Convert Raw data DWD Portal                                                 | -        | Not Started |
+| Filter/Clean/Convert Raw data Brandstatistik                                             | -        | Not Started |
+| Creating a unique env to test models with our stable database                            | -        | Not Started |
+| Developing basic visualisation functions to help evaluate the model development          | -        | Not Started |
+| Deep analysis in the model training - here each pearson could train a model (if nessary) | -        | Not Started |
+| Visualisation techniques discussion - Focus on formats, display, intereaction            | -        | Not Started |
+| Visualisation design discussion - Focus on colors, text, size                            | -        | Not Started |
+| Writting unit tests for each application (arrange - act - assert)                        | -        | Not Started |
+| Code refactoring - reduce redudancy                                                      | -        | Not Started |
