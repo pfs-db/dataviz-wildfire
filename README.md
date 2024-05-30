@@ -1,11 +1,5 @@
 # data-science-viz
 
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
 ## Virtual enviroments
 
 Usage of virtual enviroments to make sure that the project is compatible in every machine.
@@ -41,19 +35,22 @@ Everytime a package is installed, for example: `pip install numpy`, the requirem
 
 All the required packages will be listed on the `requirements.txt` file.
 
+## Project planning:
+
+A copy of the project planning will be at [Project Notes](./notes/project_plan.md). Otherwise use the link to contribute online at [Hackmd - Planning](https://hackmd.informatik.uni-bremen.de/j6lQBfpTSDOP7SPxjBKXQg).
+
 ## Our Project:
 
-Ideen:
+The folder structure follow as this:
 
-- Auswertung der Daten des Deutchen Wetterdienstes (DWD)
-- Vergleich zwischen Prognosen und tatsächlich eingetroffenem Wetter.
-  ->statistische Wahrscheinlichkeit für Abweichung/ Fehler der Prognosen ->guter Einstieg
-- Eigene Prognosen erstellen? -> sehr komplex
-- Einfluss von Umweltkatastrophen (ggf. Nachrichten auf Naturkatastrophen absuchen?) auf politisches Meinungsbild(Politibarometer in deutschland) -> glaube ich machbar aber kein machine learning, nur statistik glaube ich
-
-- Daten gibt es hier:
-  - Politisches Meinungsbild: [article](https://search.gesis.org/research_data/ZA7970?doi=10.4232/1.14103)
-  - Wetterdaten: [Daten](https://opendata.dwd.de/climate_environment/CDC/)
+```
+project_wild_fire
+├── docs
+├── output
+├── sample
+├── src
+└── tests
+```
 
 ## References:
 
@@ -61,3 +58,20 @@ Ideen:
 - [Classes Slides](https://nc.uni-bremen.de/index.php/s/MWxosSLCQxKPapZ)
 - [Jupyter Uni Bremen](https://jupyter.uni-bremen.de/)
 - [Forschung Professor: Klimageographie](https://www.uni-bremen.de/geographie/personen/personen-a-z/prof-dr-ben-marzeion)
+
+## Tasks
+
+| Task Description                                                                         | Assignee | Status      |
+| ---------------------------------------------------------------------------------------- | -------- | ----------- |
+| Write Exposé                                                                             | @all     | In Progress |
+| Extract information from the DWD portal                                                  | -        | Not Started |
+| Extract information from the Brandstatistik PDF's                                        | -        | Not Started |
+| Filter/Clean/Convert Raw data DWD Portal                                                 | -        | Not Started |
+| Filter/Clean/Convert Raw data Brandstatistik                                             | -        | Not Started |
+| Creating a unique env to test models with our stable database                            | -        | Not Started |
+| Developing basic visualisation functions to help evaluate the model development          | -        | Not Started |
+| Deep analysis in the model training - here each pearson could train a model (if nessary) | -        | Not Started |
+| Visualisation techniques discussion - Focus on formats, display, intereaction            | -        | Not Started |
+| Visualisation design discussion - Focus on colors, text, size                            | -        | Not Started |
+| Writting unit tests for each application (arrange - act - assert)                        | -        | Not Started |
+| Code refactoring - reduce redudancy                                                      | -        | Not Started |
