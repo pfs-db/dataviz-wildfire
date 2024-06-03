@@ -1,20 +1,20 @@
-,Jan,Feb,Mär,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez
-Baden-Württemberg,,,,,,,,,,,,
-Bayern,,,,,,,,,,,,
-Berlin,,,,,,,,,,,,
-Brandenburg,,,,,,,,,,,,
-Bremen,,,,,,,,,,,,
-Hamburg,,,,,,,,,,,,
-Hessen,,,,,,,,,,,,
-Mecklenburg-Vorpommern,,,,,,,,,,,,
-Niedersachsen,,,,,,,,,,,,
-Nordrhein-Westfalen,,,,,,,,,,,,
-Rheinland-Pfalz,,,,,,,,,,,,
-Saarland,,,,,,,,,,,,
-Sachsen,,,,,,,,,,,,
-Sachsen-Anhalt,,,,,,,,,,,,
-Schleswig-Holstein,,,,,,,,,,,,
-Thüringen,,,,,,,,,,,,
-Früheres Bundesgebiet,,,,,,,,,,,,
-Neue Länder,,,,,,,,,,,,
-Deutschland,,,,,,,,,,,,
+Land,Jan,Feb,Mär,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez
+Baden-Württemberg,0,0,4,16,2,1,0,4,3,1,0,0
+Bayern,0,0,2,11,0,3,0,5,0,0,0,0
+Berlin,0,0,0,4,1,0,0,4,2,0,0,0
+Brandenburg,1,0,2,86,56,7,13,60,22,3,0,0
+Bremen,0,0,0,0,0,0,0,0,0,0,0,0
+Hamburg,0,0,0,0,0,0,0,0,0,0,0,0
+Hessen,0,0,5,14,3,0,3,2,1,0,0,0
+Mecklenburg-Vorpommern,0,0,0,15,5,2,2,7,9,0,0,0
+Niedersachsen,0,0,0,46,17,17,10,49,17,0,0,0
+Nordrhein-Westfalen,0,0,0,14,1,0,5,1,0,0,0,0
+Rheinland-Pfalz,0,0,0,8,6,0,4,1,4,2,0,0
+Saarland,0,0,0,0,0,0,0,0,0,0,0,0
+Sachsen,0,0,1,40,15,3,3,11,10,0,2,0
+Sachsen-Anhalt,0,0,0,15,11,5,13,16,18,0,0,0
+Schleswig-Holstein,0,0,0,0,0,0,0,0,0,0,0,0
+Thüringen,0,0,0,5,1,0,0,8,3,0,0,0
+Früheres Bundesgebiet,0,0,11,113,30,21,22,66,27,3,0,0
+Neue Länder,1,0,3,161,88,17,31,102,62,3,2,0
+Deutschland,1,0,14,274,118,38,53,168,89,6,2,0
